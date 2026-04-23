@@ -1,0 +1,15 @@
+// ltl-select-demo/main.ltl
+//
+// Multi-way select across channels with timeouts.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-select-demo v0.1.0")
+    io::println("Multi-way select across channels with timeouts.")
+    0
+}
